@@ -292,7 +292,7 @@ function isPortfolioQuestion(question) {
 async function askGroq(question, context) {
 
     if (!process.env.GROQ_API_KEY) {
-        throw new Error("GROQ_API_KEY is missing from environment variables");
+        throw new Error("GROQ_API_KEY is missing from .env");
     }
 
 
@@ -818,7 +818,17 @@ app.post("/api/ask", async (req, res) => {
 
 
 /* =========================================================
-   VERCEL
+   START SERVER
 ========================================================= */
 
-module.exports = app;
+const PORT = 3000;
+
+
+app.listen(PORT, () => {
+
+    console.log(
+        "Portfolio website running on http://localhost:" +
+        PORT
+    );
+
+});
