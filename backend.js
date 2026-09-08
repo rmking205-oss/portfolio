@@ -823,12 +823,13 @@ app.post("/api/ask", async (req, res) => {
 
 const PORT = 3000;
 
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(
+            "Portfolio website running on http://localhost:" +
+            PORT
+        );
+    });
+}
 
-app.listen(PORT, () => {
-
-    console.log(
-        "Portfolio website running on http://localhost:" +
-        PORT
-    );
-
-});
+module.exports = app;
