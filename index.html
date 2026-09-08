@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Developer Portfolio</title>
+
+<link rel="stylesheet"
+      href="style.css">
+
+</head>
+
+<body>
+
+<!-- ================= ANIMATED BACKGROUND ================= -->
+
+<div class="particles">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <div class="container">
+
+        <nav>
+
+            <div class="logo">
+                My<span>Portfolio</span>
+            </div>
+
+            <ul class="nav-links"
+                id="navLinks">
+
+                <li>
+                    <a href="#"
+                       onclick="showPage('home'); return false;">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                       onclick="showPage('about'); return false;">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                       onclick="showPage('skills'); return false;">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                       onclick="showPage('projects'); return false;">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                       onclick="showPage('contact'); return false;">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="menu-btn"
+                 onclick="toggleMenu()">
+
+                ☰
+
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<main id="home-page"
+      class="page active-page">
+
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <div class="welcome-text">
+
+                    <span class="welcome-dot"></span>
+
+                    Welcome to My Profile
+
+                </div>
+
+                <h1>
+
+                    Building
+
+                    <span class="gradient-text">
+
+                        Digital Experiences.
+
+                    </span>
+
+                </h1>
+
+                <p class="hero-description">
+
+                    I'm a developer focused on building practical,
+                    responsive and user-friendly web applications.
+                    I enjoy working on collaborative projects and
+                    turning ideas into functional software.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="btn btn-primary"
+                        onclick="showPage('projects')">
+
+                        Explore My Work
+
+                        <span>→</span>
+
+                    </button>
+
+                    <button
+                        class="btn btn-secondary"
+                        onclick="showPage('about')">
+
+                        More About Me
+
+                        <span>↓</span>
+
+                    </button>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+
+                        <h3>13+</h3>
+
+                        <p>Projects</p>
+
+                    </div>
+
+                    <div class="stat">
+
+                        <h3>10</h3>
+
+                        <p>Contributions</p>
+
+                    </div>
+
+                    <div class="stat">
+
+                        <h3>3</h3>
+
+                        <p>Independent Projects</p>
+
+                    </div>
+
+                    <div class="stat">
+
+                        <h3>Web</h3>
+
+                        <p>Development</p>
+
+                    </div>
+
+                </div>
+
+                <div class="scroll-indicator">
+
+                    <span></span>
+
+                    Scroll to explore
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about-page"
+         class="page">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="eyebrow">
+                About Me
+            </div>
+
+            <h2>
+                Hi, I'm Raheel Masood — a Developer focused on learning by building.
+            </h2>
+
+            <p>
+
+                I believe the best way to improve as a developer
+                is to build real projects and solve real problems.
+
+            </p>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <h3>
+                    Turning ideas into working applications.
+                </h3>
+
+                <p>
+
+                    I enjoy developing web applications that are
+                    simple to use, responsive and practical.
+
+                </p>
+
+                <p>
+
+                    My development experience includes individual
+                    projects as well as collaborative repositories
+                    where I have contributed to different parts
+                    of the development process.
+
+                </p>
+
+                <p>
+
+                    I am continuously improving my skills in
+                    frontend development, JavaScript, APIs,
+                    databases, Git and modern development workflows.
+
+                </p>
+
+            </div>
+
+            <div class="about-card">
+
+                <div class="about-item">
+
+                    <strong>Focus</strong>
+
+                    Web Development
+
+                </div>
+
+                <div class="about-item">
+
+                    <strong>Frontend</strong>
+
+                    HTML • CSS • JavaScript
+
+                </div>
+
+                <div class="about-item">
+
+                    <strong>Backend</strong>
+
+                    Node.js • Express
+
+                </div>
+
+                <div class="about-item">
+
+                    <strong>Database</strong>
+
+                    MongoDB • MongoDB Atlas • MySQL
+
+                </div>
+
+                <div class="about-item">
+
+                    <strong>Tools</strong>
+
+                    Git • GitHub • VS Code
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills-page"
+         class="page">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="eyebrow">
+                Skills
+            </div>
+
+            <h2>
+                Technologies I work with.
+            </h2>
+
+            <p>
+
+                A collection of technologies and tools I have
+                used while building projects.
+
+            </p>
+
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-group">
+
+                <h3>
+                    Frontend Development
+                </h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill">HTML5</div>
+
+                    <div class="skill">CSS3</div>
+
+                    <div class="skill">JavaScript</div>
+
+                    <div class="skill">Responsive Design</div>
+
+                    <div class="skill">DOM Manipulation</div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-group">
+
+                <h3>
+                    Backend & Database
+                </h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill">Node.js</div>
+
+                    <div class="skill">Express.js</div>
+
+                    <div class="skill">MongoDB</div>
+
+                    <div class="skill">MongoDB Atlas</div>
+
+                    <div class="skill">MySQL</div>
+
+                    <div class="skill">REST APIs</div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-group">
+
+                <h3>
+                    Tools & Development
+                </h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill">Git</div>
+
+                    <div class="skill">GitHub</div>
+
+                    <div class="skill">GitHub API</div>
+
+                    <div class="skill">VS Code</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects-page"
+         class="page">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="eyebrow">
+                Selected Work
+            </div>
+
+            <h2>
+                Projects & Contributions.
+            </h2>
+
+            <p>
+
+                A collection of projects I built independently
+                and contributed to collaboratively.
+
+            </p>
+
+        </div>
+
+
+        <!-- ================= INDEPENDENT PROJECTS ================= -->
+
+        <div class="project-category">
+
+            <div class="category-header">
+
+                <div>
+
+                    <h3>
+                        ⭐ Independent Projects
+                    </h3>
+
+                    <p>
+
+                        Projects developed and completed independently.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                class="projects-grid"
+                id="ownProjectsGrid">
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= CONTRIBUTIONS ================= -->
+
+        <div class="project-category">
+
+            <div class="category-header">
+
+                <div>
+
+                    <h3>
+                        🤝 Contributions
+                    </h3>
+
+                    <p>
+
+                        Collaborative projects where I contributed
+                        to development.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                class="projects-grid"
+                id="contributionsGrid">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact-page"
+         class="page">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div class="eyebrow">
+                Get In Touch
+            </div>
+
+            <h2>
+                Let's build something useful.
+            </h2>
+
+            <p>
+
+                Interested in my work, collaboration or future
+                opportunities? Explore my GitHub and projects.
+
+            </p>
+
+            <a
+                href="https://github.com/rmking205-oss"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary">
+
+                Visit My GitHub ↗
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECT DETAIL ================= -->
+
+<section id="project-detail"
+         class="page">
+
+    <div class="container">
+
+        <div id="detailContent"></div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     RAG CHATBOT
+====================================================== -->
+
+<div class="chatbot">
+
+    <button
+        class="chatbot-toggle"
+        onclick="toggleChatbot()"
+        aria-label="Open Portfolio Assistant">
+
+        💬
+
+    </button>
+
+
+    <div
+        class="chatbot-box"
+        id="chatbotBox">
+
+        <div class="chatbot-header">
+
+            <div>
+
+                <strong>
+                    Portfolio Assistant
+                </strong>
+
+                <small>
+                    Ask me about my projects
+                </small>
+
+            </div>
+
+            <button
+                type="button"
+                onclick="toggleChatbot()"
+                aria-label="Close chatbot">
+
+                ×
+
+            </button>
+
+        </div>
+
+
+        <div
+            class="chatbot-messages"
+            id="chatMessages">
+
+            <div class="bot-message">
+
+                Hi! 👋
+
+                <br><br>
+
+                I'm your Portfolio Assistant. 😊
+
+                <br><br>
+
+                You can ask me about my projects,
+                skills, technologies, contributions,
+                or development experience.
+
+            </div>
+
+        </div>
+
+
+        <div class="chatbot-input">
+
+            <input
+                type="text"
+                id="chatInput"
+                placeholder="Ask me anything..."
+                autocomplete="off">
+
+            <button
+                type="button"
+                id="sendChatBtn"
+                onclick="sendMessage()"
+                aria-label="Send message">
+
+                ➤
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
+
+        <p>
+
+            © 2026 My Portfolio • Built with HTML, CSS & JavaScript
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= MAIN JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+
+
+<!-- =====================================================
+     CHATBOT JAVASCRIPT
+====================================================== -->
+
+<script>
+
+    function toggleChatbot() {
+
+        const chatbotBox =
+            document.getElementById("chatbotBox");
+
+        if (chatbotBox) {
+
+            chatbotBox.classList.toggle("show");
+
+        }
+
+    }
+
+
+    const chatInput =
+        document.getElementById("chatInput");
+
+    if (chatInput) {
+
+        chatInput.addEventListener("keydown", function(event) {
+
+            if (event.key === "Enter") {
+
+                event.preventDefault();
+
+                sendMessage();
+
+            }
+
+        });
+
+    }
+
+
+    async function sendMessage() {
+
+        const input =
+            document.getElementById("chatInput");
+
+        const messages =
+            document.getElementById("chatMessages");
+
+        const sendButton =
+            document.getElementById("sendChatBtn");
+
+
+        if (!input || !messages) {
+
+            return;
+
+        }
+
+
+        const question =
+            input.value.trim();
+
+
+        if (!question) {
+
+            return;
+
+        }
+
+
+        const userMessage =
+            document.createElement("div");
+
+        userMessage.className =
+            "user-message";
+
+        userMessage.textContent =
+            question;
+
+        messages.appendChild(userMessage);
+
+
+        input.value = "";
+
+
+        const botMessage =
+            document.createElement("div");
+
+        botMessage.className =
+            "bot-message";
+
+        botMessage.textContent =
+            "Thinking...";
+
+        messages.appendChild(botMessage);
+
+
+        messages.scrollTop =
+            messages.scrollHeight;
+
+
+        if (sendButton) {
+
+            sendButton.disabled = true;
+
+        }
+
+
+        try {
+
+            const response =
+                await fetch(
+                    "http://localhost:3000/api/ask",
+                    {
+                        method: "POST",
+
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+
+                        body: JSON.stringify({
+                            question: question
+                        })
+                    }
+                );
+
+
+            if (!response.ok) {
+
+                const errorText =
+                    await response.text();
+
+                console.error(
+                    "Server Error:",
+                    response.status,
+                    errorText
+                );
+
+                throw new Error(
+                    "Server returned " +
+                    response.status
+                );
+
+            }
+
+
+            const data =
+                await response.json();
+
+
+            console.log(
+                "Chatbot Response:",
+                data
+            );
+
+
+            if (
+                data &&
+                typeof data.answer === "string" &&
+                data.answer.trim() !== ""
+            ) {
+
+                botMessage.textContent =
+                    data.answer;
+
+            }
+
+            else {
+
+                botMessage.textContent =
+                    "Sorry, I couldn't find a suitable answer. 😊";
+
+            }
+
+        }
+
+
+        catch (error) {
+
+            console.error(
+                "Chatbot Connection Error:",
+                error
+            );
+
+
+            botMessage.textContent =
+                "Server se connection nahi ho raha. Please make sure `node server.js` is running on http://localhost:3000.";
+
+        }
+
+
+        if (sendButton) {
+
+            sendButton.disabled = false;
+
+        }
+
+
+        messages.scrollTop =
+            messages.scrollHeight;
+
+    }
+
+</script>
+
+</body>
+
+</html>
