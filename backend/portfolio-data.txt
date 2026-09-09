@@ -1,387 +1,1121 @@
 PORTFOLIO INFORMATION
 
+==================================================
 ABOUT ME
+========
 
 I am a developer focused on learning by building practical, responsive and user-friendly web applications.
 
-I believe the best way to improve as a developer is to build real projects and solve real problems.
+I believe the best way to improve as a developer is to build real projects, solve practical problems and continuously improve through hands-on development.
 
-My development experience includes individual projects as well as collaborative repositories where I have contributed to different parts of the development process.
+My development experience includes independent projects as well as collaborative repositories where I have contributed to different parts of the development process.
 
-I am continuously improving my skills in frontend development, JavaScript, APIs, databases, Git and modern development workflows.
+I work mainly with frontend web technologies and JavaScript, while also developing practical experience with backend development, REST APIs, databases, Git and GitHub.
 
+I am continuously improving my skills by building projects, experimenting with new technologies, understanding real development workflows and working collaboratively with other developers.
 
+My main development focus is Web Development, especially interactive frontend applications, JavaScript-based applications, API integration and full-stack projects.
+
+==================================================
 SKILLS
+======
 
 Frontend Development:
+
+* HTML5
+* CSS3
+* JavaScript
+* Responsive Web Design
+* DOM Manipulation
+* Interactive User Interfaces
+* Browser Events
+* Form Handling
+
+Backend and Database:
+
+* Node.js
+* Express.js
+* MongoDB
+* MongoDB Atlas
+* REST APIs
+* API Integration
+* Asynchronous JavaScript
+
+Tools and Development:
+
+* Git
+* GitHub
+* GitHub API
+* VS Code
+* Git Branching
+* Pull Requests
+* Collaborative Development
+
+==================================================
+INDEPENDENT PROJECTS
+====================
+
+## PROJECT 1: QUIZ BIO SYSTEM
+
+Project Type:
+Independent Project
+
+GitHub Repository:
+https://github.com/rmking205-oss/quiz-bio-system.git
+
+Description:
+Quiz Bio System is a web-based online assessment application focused on conducting controlled quizzes while adding student identification, biometric verification and anti-cheating mechanisms.
+
+The project combines a traditional multiple-choice quiz system with browser monitoring and face detection features.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+* Face API
+* Browser APIs
+
+Main Purpose:
+The main purpose of the project is to create a controlled online quiz environment where students can be identified and monitored during an assessment.
+
+Main Features:
+
+* Student identification
+* Student name input
+* Student username input
+* Student email input
+* Multiple-choice questions
+* Timed quiz
+* Five-minute assessment timer
+* Question navigation
+* Progress tracking
+* Automatic submission
+* Face detection
+* Face landmark detection
+* Face recognition
+* Face descriptor generation
+* Webcam access
+* Identity verification
+* Tab-switch detection
+* Violation tracking
+* Anti-cheating mechanisms
+* Right-click prevention
+* Copy and paste prevention
+
+How It Works:
+The student provides identification information before starting the quiz.
+
+The application then loads the quiz questions and starts the assessment timer.
+
+JavaScript manages the quiz state, question navigation, answer selection and submission process.
+
+Browser visibility events are monitored to detect when the student switches away from the quiz.
+
+The application tracks violations and can automatically submit the quiz when the allowed violation limit is exceeded.
+
+The webcam can be accessed through the browser to capture the student's face.
+
+Face API models are used for face detection, facial landmarks and face recognition.
+
+The system can generate and compare face descriptors to help verify student identity.
+
+Challenges:
+One of the main challenges was combining quiz functionality with security and monitoring features while keeping the application usable.
+
+Another challenge was implementing webcam access and face recognition correctly in a browser environment.
+
+Monitoring browser activity and maintaining quiz state also required careful JavaScript event handling.
+
+My Contribution:
+I designed and developed the project independently.
+
+My work included:
+
+* Application structure
+* User interface
+* Quiz functionality
+* Question navigation
+* Timer implementation
+* Student identification
+* Anti-cheating mechanisms
+* Browser activity monitoring
+* Webcam integration
+* Face detection
+* Identity verification
+* Application state management
+
+What I Learned:
+This project improved my understanding of:
+
+* JavaScript
+* DOM manipulation
+* Browser events
+* Webcam APIs
+* Face recognition
+* Face detection
+* Application state
+* Timers
+* Security-related browser events
+* Building complete web applications independently
+
+==================================================
+
+## PROJECT 2: AI PLAYGROUND
+
+Project Type:
+Independent Project
+
+GitHub Repository:
+https://github.com/rmking205-oss/ai-playground.git
+
+Description:
+AI Playground is an AI-focused web development project designed around experimenting with AI functionality and integrating AI services into a web application.
+
+The project uses a backend architecture to communicate with AI services rather than exposing sensitive API credentials directly in the frontend.
+
+Technologies:
+
+* Node.js
+* Express.js
+* MongoDB
+* MongoDB Atlas
+* Groq SDK
+* REST APIs
+* JavaScript
+* CORS
+* Environment Variables
+
+Main Purpose:
+The project provides practical experience with integrating AI functionality into a web application and connecting frontend applications with backend services and databases.
+
+Main Development Areas:
+
+* Backend development
+* AI API integration
+* REST API development
+* Database integration
+* Environment configuration
+* Server-side API communication
+
+Important Concepts:
+
+* Node.js backend
+* Express server
+* AI SDK integration
+* MongoDB database
+* Environment variables
+* API communication
+* CORS configuration
+
+My Contribution:
+I worked on the development and integration of the project, including backend setup, API communication and AI-related functionality.
+
+What I Learned:
+This project helped me gain practical experience with:
+
+* Node.js
+* Express.js
+* AI API integration
+* Backend architecture
+* MongoDB
+* Environment variables
+* REST APIs
+* Connecting frontend applications with backend services
+
+==================================================
+
+## PROJECT 3: STUDENT MANAGEMENT SYSTEM
+
+Project Type:
+Independent Project
+
+GitHub Repository:
+https://github.com/rmking205-oss/student-management-system.git
+
+Description:
+Student Management System is a full-stack application for managing student records through a web-based backend system.
+
+The project combines Express.js with MySQL for student data management and MongoDB for recording system activities.
+
+Technologies:
+
+* Node.js
+* Express.js
+* MySQL
+* MySQL2
+* MongoDB
+* MongoDB Atlas
+* REST APIs
+* JavaScript
+
+Main Purpose:
+The purpose of the project is to provide a backend system for creating, viewing, updating and deleting student records.
+
+Main Features:
+
+* Add students
+* View students
+* Update student records
+* Delete students
+* Student ID management
+* Student name management
+* Student email management
+* Student course management
+* REST API endpoints
+* Activity logging
+* MongoDB activity storage
+
+How It Works:
+Student information is stored in a MySQL database.
+
+The Express.js backend provides API endpoints for managing student records.
+
+A student can be created using the API, retrieved from the database, updated and deleted.
+
+Important actions are also recorded in MongoDB as activities.
+
+The activity system records operations such as:
+
+* student_added
+* student_updated
+* student_deleted
+
+Database Structure:
+MySQL is used for the main student records.
+
+MongoDB is used for activity logging.
+
+This demonstrates the use of two different databases for different purposes within the same application.
+
+Environment Configuration:
+The application uses environment variables for database connection information instead of hardcoding sensitive connection details.
+
+My Contribution:
+I worked on the full-stack development of the project, including backend API development, database operations and activity logging.
+
+What I Learned:
+This project improved my understanding of:
+
+* Express.js
+* REST APIs
+* MySQL
+* MongoDB
+* CRUD operations
+* Database integration
+* Backend architecture
+* Environment variables
+* Activity logging
+* Full-stack development
+
+==================================================
+
+## PROJECT 4: TASK TRACKER
+
+Project Type:
+Independent Project
+
+GitHub Repository:
+https://github.com/rmking205-oss/task-tracker.git
+
+Description:
+Task Tracker is a JavaScript-based task management application for creating, completing and deleting tasks.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+
+Main Features:
+
+* Add tasks
+* Task descriptions
+* Complete tasks
+* Uncomplete tasks
+* Delete tasks
+* Task sorting
+* Interactive task list
+* Responsive interface
+
+How It Works:
+Users enter a task description and add it to the task list.
+
+Each task receives an identifier generated using the current timestamp.
+
+Tasks can be marked as completed or changed back to incomplete.
+
+Completed tasks are visually marked and tasks are sorted so incomplete tasks appear before completed tasks.
+
+Users can also delete tasks.
+
+My Contribution:
+I developed the application functionality and frontend implementation.
+
+What I Learned:
+This project strengthened my understanding of:
+
+* JavaScript arrays
+* Objects
+* DOM manipulation
+* Event handling
+* Application state
+* Dynamic UI updates
+* Array sorting
+
+==================================================
+
+## PROJECT 5: TEMPERATURE SYSTEM
+
+Project Type:
+Independent Project
+
+GitHub Repository:
+https://github.com/rmking205-oss/temperature-system.git
+
+Description:
+Temperature System is an interactive temperature conversion application built with JavaScript.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+
+Main Features:
+
+* Temperature input
+* Celsius conversion
+* Fahrenheit conversion
+* Kelvin conversion
+* Input validation
+* Instant conversion results
+* Unit display
+* Responsive interface
+
+Supported Units:
+
+* Celsius
+* Fahrenheit
+* Kelvin
+
+How It Works:
+The user enters a temperature value and selects the required conversion.
+
+JavaScript validates the input and performs the required temperature calculation.
+
+The converted result is displayed with appropriate unit symbols.
+
+Results are formatted to two decimal places.
+
+My Contribution:
+I developed the frontend interface and JavaScript conversion functionality.
+
+What I Learned:
+This project improved my understanding of:
+
+* JavaScript calculations
+* Input validation
+* Event handling
+* DOM updates
+* Unit conversion
+* User input processing
+
+==================================================
+
+## PROJECT 6: PORTFOLIO WEBSITE
+
+Project Type:
+Independent Project
+
+GitHub Repository:
+https://github.com/rmking205-oss/portfolio.git
+
+Description:
+This portfolio website presents my development skills, projects, contributions and technical experience through a responsive web interface.
+
+The portfolio is designed to provide visitors with information about my development work and allow them to explore my projects.
+
+Main Sections:
+
+* Home
+* About
+* Skills
+* Projects
+* Project Details
+* Contact
+* Footer
+* AI Chatbot
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Express.js
+* MongoDB-related project knowledge
+* REST APIs
+* Groq AI
+* RAG
+
+Main Features:
+
+* Responsive design
+* Project showcase
+* Skills section
+* Project details
+* Contact section
+* Interactive UI
+* AI chatbot
+* Portfolio knowledge base
+* RAG-based project information retrieval
+
+AI Chatbot:
+The portfolio includes an AI chatbot that answers questions about my portfolio and projects.
+
+The chatbot uses a portfolio knowledge base stored in portfolio-data.txt.
+
+Relevant information is retrieved from the knowledge base and provided to the language model so the chatbot can generate answers based on portfolio information.
+
+My Contribution:
+I developed and structured the portfolio website, project presentation and chatbot-related functionality.
+
+What I Learned:
+This project helped me improve my understanding of:
+
+* Responsive web design
+* Frontend development
+* JavaScript
+* Backend integration
+* APIs
+* AI integration
+* RAG concepts
+* Structuring information for AI systems
+
+==================================================
+CONTRIBUTION PROJECTS
+=====================
+
+## PROJECT 7: WEATHER CHECK APP
+
+Project Type:
+Contribution
+
+GitHub Repository:
+https://github.com/lishay7890/weather-check-app.git
+
+Description:
+Weather Check App is a JavaScript-based weather application with a clean and responsive frontend interface.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+
+Main Development Areas:
+
+* Frontend structure
+* Styling
+* JavaScript functionality
+* User interaction
+* Weather-related application interface
+
+My Contribution:
+I contributed to the frontend structure, styling and JavaScript functionality.
+
+What I Learned:
+This project improved my understanding of:
+
+* JavaScript
+* DOM manipulation
+* Frontend development
+* Responsive design
+* Interactive web interfaces
+
+==================================================
+
+## PROJECT 8: STORY CLONE PROJECT
+
+Project Type:
+Contribution
+
+GitHub Repository:
+https://github.com/lishay7890/story-clone-project.git
+
+Description:
+Story Clone Project is an Instagram-style stories application that allows users to upload and view temporary stories.
+
+The project combines frontend functionality with an Express backend and MongoDB storage.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Express.js
+* MongoDB
+* MongoDB Atlas
+
+Main Features:
+
+* Story cards
+* Story viewer
+* Story navigation
+* Next story
+* Previous story
+* Pause and resume
+* Keyboard interaction
+* Touch interaction
+* Mouse hold interaction
+* Image upload
+* Image selection
+* Image processing
+* Story deletion
+* MongoDB storage
+* Express API
+* Story expiration
+* Responsive design
+* Touch/swipe support
+
+How It Works:
+Users can select and upload images as stories.
+
+The frontend communicates with backend API endpoints to create, retrieve and delete stories.
+
+Story information is stored in MongoDB.
+
+Stories are designed to expire after a limited period, following the concept of temporary social media stories.
+
+The application also supports different forms of interaction, including keyboard, mouse and touch controls.
+
+My Contribution:
+I contributed to:
+
+* Frontend implementation
+* Story interface
+* Story viewer
+* Image processing
+* API integration
+* MongoDB integration
+* User interaction
+
+Challenges:
+Important challenges included:
+
+* Connecting frontend and backend
+* Working with Express APIs
+* Configuring MongoDB Atlas
+* Handling uploaded images
+* Implementing story expiration
+* Supporting different interaction methods
+
+What I Learned:
+This project provided practical experience with:
+
+* Full-stack development
+* Express.js
+* REST APIs
+* MongoDB
+* MongoDB Atlas
+* Asynchronous JavaScript
+* Image processing
+* Frontend/backend communication
+
+==================================================
+
+## PROJECT 9: THEME SWITCHER
+
+Project Type:
+Contribution
+
+GitHub Repository:
+https://github.com/fatimatalat98/theme-switcher.git
+
+Description:
+Theme Switcher is an interactive frontend project that allows users to change the visual theme of a website.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+
+Main Features:
+
+* Theme switching
+* Dynamic styling
+* Interactive controls
+* Responsive interface
+* JavaScript-based UI changes
+
+My Contribution:
+I contributed to the frontend styling and theme-switching functionality.
+
+What I Learned:
+This project improved my understanding of:
+
+* CSS
+* JavaScript
+* Dynamic styling
+* DOM manipulation
+* Interactive UI development
+
+==================================================
+
+## PROJECT 10: TEAM GIT PRACTICE
+
+Project Type:
+Contribution
+
+GitHub Repository:
+https://github.com/fatimatalat98/team-git-practice.git
+
+Description:
+Team Git Practice is a collaborative repository created for practicing Git, GitHub, branches and pull requests.
+
+Technologies:
+
+* Git
+* GitHub
+* HTML
+* CSS
+* JavaScript
+
+Main Concepts:
+
+* Git branches
+* Commits
+* Pull requests
+* Merge workflow
+* Version control
+* Team collaboration
+* Repository management
+
+My Contribution:
+I participated in the collaborative development workflow and practiced working with branches, commits and pull requests.
+
+What I Learned:
+This project improved my practical understanding of:
+
+* Git
+* GitHub
+* Branching
+* Pull requests
+* Version control
+* Collaboration
+* Merge workflows
+
+==================================================
+
+## PROJECT 11: POMODORO TIMER
+
+Project Type:
+Contribution
+
+GitHub Repository:
+https://github.com/lishay7890/pomodoro-timer.git
+
+Description:
+Pomodoro Timer is a productivity application based on focused work sessions and scheduled breaks.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+
+Default Timer Structure:
+
+* 25-minute work session
+* 5-minute short break
+* 15-minute long break
+
+Main Features:
+
+* Work timer
+* Short break timer
+* Long break timer
+* Start control
+* Pause control
+* Reset control
+* Session selection
+* Completed session counter
+* Automatic long break
+* Completion sound
+* Custom timer settings
+* Input validation
+* Responsive interface
+
+How It Works:
+The application starts with a focused work session.
+
+After completing a work session, the application moves to the appropriate break.
+
+After every four completed work sessions, a longer break is provided.
+
+Users can also configure custom work, short-break and long-break durations.
+
+The application uses JavaScript timers to manage countdown and session state.
+
+My Contribution:
+I contributed to the frontend interface and JavaScript timer functionality.
+
+What I Learned:
+This project improved my understanding of:
+
+* JavaScript timers
+* Countdown logic
+* Application state
+* DOM updates
+* User controls
+* Input validation
+* Audio feedback
+
+==================================================
+
+## PROJECT 12: GITHUB REPOSITORY FINDER
+
+Project Type:
+Contribution
+
+Description:
+GitHub Repository Finder is a web application that uses the GitHub API to find and display repositories based on programming language.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+* GitHub API
+
+Main Features:
+
+* Programming language selection
+* GitHub API integration
+* Repository search
+* Dynamic results
+* Repository discovery
+* API requests
+* JSON data handling
+* Responsive interface
+
+How It Works:
+The user selects a programming language.
+
+JavaScript sends a request to the GitHub API.
+
+The API returns repository information in JSON format.
+
+The application processes the returned data and dynamically displays repository results in the interface.
+
+My Contribution:
+I contributed to the frontend interface and JavaScript functionality used to communicate with the GitHub API.
+
+What I Learned:
+This project improved my understanding of:
+
+* REST APIs
+* Fetch requests
+* JSON
+* API responses
+* Asynchronous JavaScript
+* Dynamic DOM rendering
+* External API integration
+
+==================================================
+
+## PROJECT 13: CUSTOM DROPDOWN
+
+Project Type:
+Contribution
+
+GitHub Repository:
+https://github.com/lishay7890/custom-dropdown.git
+
+Description:
+Custom Dropdown is an interactive frontend component that recreates dropdown functionality using HTML, CSS and JavaScript.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+
+Main Features:
+
+* Custom dropdown UI
+* Open and close interaction
+* Option selection
+* JavaScript events
+* Custom styling
+* Responsive layout
+
+How It Works:
+The interface provides a custom dropdown instead of relying only on the browser's default styling.
+
+JavaScript controls the opening and closing of the dropdown and handles option selection.
+
+CSS is used to control the appearance and positioning of the dropdown.
+
+My Contribution:
+I contributed to:
+
+* HTML structure
+* CSS styling
+* JavaScript interaction
+* Dropdown behavior
+
+What I Learned:
+This project improved my understanding of:
+
+* JavaScript events
+* DOM manipulation
+* CSS positioning
+* Interactive components
+* UI behavior
+
+==================================================
+
+## PROJECT 14: QUIZ PROJECT
+
+Project Type:
+Contribution
+
+GitHub Repository:
+https://github.com/fatimatalat98/quiz-project.git
+
+Description:
+Quiz Project is a frontend quiz application containing multiple-choice questions, question navigation, a timer and interactive quiz functionality.
+
+Technologies:
+
+* HTML
+* CSS
+* JavaScript
+
+Main Features:
+
+* Multiple-choice questions
+* Student information
+* Question navigation
+* Answer selection
+* Quiz timer
+* Five-minute timer
+* Progress bar
+* Anti-cheating violation tracking
+* Automatic submission
+* Interactive interface
+* Responsive design
+
+How It Works:
+The student enters the required information before starting.
+
+Questions are presented one at a time.
+
+The user selects answers and can navigate through the questions.
+
+A timer controls the assessment duration.
+
+The application tracks violations during the quiz.
+
+When the timer reaches the end, the quiz is automatically submitted.
+
+My Contribution:
+I contributed to the quiz functionality, frontend behavior and JavaScript logic.
+
+What I Learned:
+This project strengthened my understanding of:
+
+* JavaScript arrays
+* Objects
+* DOM manipulation
+* Application state
+* Timers
+* Event handling
+* Interactive quiz development
+
+==================================================
+GENERAL PROJECT INFORMATION
+===========================
+
+Total Projects:
+14
+
+Independent Projects:
+6
+
+Contribution Projects:
+8
+
+Independent Projects:
+
+1. Quiz Bio System
+2. AI Playground
+3. Student Management System
+4. Task Tracker
+5. Temperature System
+6. Portfolio Website
+
+Contribution Projects:
+
+1. Weather Check App
+2. Story Clone Project
+3. Theme Switcher
+4. Team Git Practice
+5. Pomodoro Timer
+6. GitHub Repository Finder
+7. Custom Dropdown
+8. Quiz Project
+
+Main Development Area:
+Web Development
+
+Main Technologies:
+
+* HTML5
+* CSS3
+* JavaScript
+* Node.js
+* Express.js
+* MongoDB
+* MongoDB Atlas
+* MySQL
+* REST APIs
+* Git
+* GitHub
+* GitHub API
+* Face API
+* Groq SDK
+
+Main Frontend Technologies:
 HTML5
 CSS3
 JavaScript
 Responsive Design
 DOM Manipulation
 
-Backend and Database:
+Main Backend Technologies:
 Node.js
 Express.js
-MongoDB
-MongoDB Atlas
 REST APIs
 
-Tools and Development:
-Git
-GitHub
-GitHub API
-VS Code
-
-
-INDEPENDENT PROJECT
-
-Project Name: Quiz Bio System
-
-Project Type: Independent Project
-
-Description:
-A complete quiz application focused on secure online assessment, student identification and biometric verification.
-
-Technologies:
-HTML
-CSS
-JavaScript
-Face API
-
-Overview:
-Quiz Bio System is an independently developed web application for conducting controlled online quizzes. The project combines quiz functionality with identity verification and anti-cheating mechanisms.
-
-Features:
-Student identification
-Timed quiz
-Multiple-choice questions
-Face detection
-Identity verification
-Tab switching detection
-Violation counting
-Automatic submission
-Right-click prevention
-Copy and paste prevention
-
-My Contribution:
-I designed and developed this project independently. My work included the application structure, quiz functionality, user interface, security mechanisms and biometric identity verification.
-
-How It Works:
-The application identifies the student before the quiz begins. Questions are displayed through JavaScript and the timer controls the assessment duration. Browser activity is monitored for violations and face detection can be used for identity verification.
-
-Challenges:
-One of the biggest challenges was combining the quiz functionality with security features without negatively affecting the user experience. Webcam access and face detection also required careful implementation.
-
-What I Learned:
-This project improved my understanding of JavaScript, browser events, webcam access, face detection, application state and building a complete web application independently.
-
-
-CONTRIBUTION PROJECTS
-
-Project Name: Weather Check App
-
-Project Type: Contribution
-
-Description:
-A JavaScript-based weather application with a clean and responsive interface.
-
-Technologies:
-HTML
-CSS
-JavaScript
-
-My Contribution:
-I contributed to the frontend structure, styling and JavaScript functionality.
-
-What I Learned:
-I improved my understanding of JavaScript, DOM manipulation and responsive frontend development.
-
-
-Project Name: Story Clone Project
-
-Project Type: Contribution
-
-Description:
-An Instagram-style stories application with image uploads, database storage and story expiration.
-
-Technologies:
-HTML
-CSS
-JavaScript
-Node.js
-Express
-MongoDB
-
-Overview:
-Story Clone Project recreates the core idea of social media stories. Users can upload images, view stories and manage them through the application.
-
-Features:
-Image upload
-Story viewer
-Story navigation
-Progress indicators
-Image processing
-MongoDB storage
-Express API
-24-hour expiration
-Responsive design
-Touch and swipe support
-
-My Contribution:
-I contributed to the frontend implementation, story interface, image processing, API integration and MongoDB integration.
-
-How It Works:
-Images are processed on the client side and sent through Express API endpoints. Story information is stored in MongoDB.
-
-Challenges:
-Connecting the frontend with the backend, configuring MongoDB Atlas and implementing expiration logic were key challenges.
-
-What I Learned:
-This project gave me practical experience with full-stack development, REST APIs, Express, MongoDB and asynchronous JavaScript.
-
-
-Project Name: Theme Switcher
-
-Project Type: Contribution
-
-Description:
-A dynamic theme-switching project that allows users to change the appearance of a website.
-
-Technologies:
-HTML
-CSS
-JavaScript
-
-Features:
-Theme switching
-Dynamic styling
-Interactive controls
-Responsive interface
-
-My Contribution:
-I contributed to the frontend styling and theme-switching functionality.
-
-What I Learned:
-I improved my understanding of CSS and JavaScript-based UI changes.
-
-
-Project Name: Team Git Practice
-
-Project Type: Contribution
-
-Description:
-A collaborative repository created for practicing Git, GitHub, branches and pull requests.
-
-Technologies:
-Git
-GitHub
-HTML
-CSS
-
-Features:
-Git branches
-Pull requests
-Team collaboration
-Version control
-Merge workflow
-
-My Contribution:
-I contributed to the collaborative workflow and practiced branching, commits, pull requests and repository management.
-
-What I Learned:
-This project improved my practical Git and GitHub collaboration skills.
-
-
-Project Name: Task Tracker
-
-Project Type: Contribution
-
-Description:
-A task management interface for creating, completing and managing daily tasks.
-
-Technologies:
-HTML
-CSS
-JavaScript
-
-Features:
-Add tasks
-Delete tasks
-Complete tasks
-Task management
-Responsive interface
-
-My Contribution:
-I contributed to the frontend implementation and task management functionality.
-
-What I Learned:
-I strengthened my understanding of JavaScript, arrays, DOM manipulation and events.
-
-
-Project Name: Temperature System
-
-Project Type: Contribution
-
-Description:
-An interactive temperature conversion application built using JavaScript.
-
-Technologies:
-HTML
-CSS
-JavaScript
-
-Features:
-Temperature input
-Unit conversion
-Instant results
-Input handling
-Responsive design
-
-My Contribution:
-I contributed to the interface and JavaScript conversion functionality.
-
-What I Learned:
-This project strengthened my JavaScript fundamentals and event handling skills.
-
-
-Project Name: Pomodoro Timer
-
-Project Type: Contribution
-
-Description:
-A productivity timer based on focused work and break intervals.
-
-Technologies:
-HTML
-CSS
-JavaScript
-
-Features:
-Work timer
-Break timer
-Start controls
-Countdown
-Responsive interface
-
-My Contribution:
-I contributed to the frontend interface and JavaScript timer functionality.
-
-What I Learned:
-I improved my understanding of JavaScript timers, state and DOM updates.
-
-
-Project Name: GitHub Repository Finder
-
-Project Type: Contribution
-
-Description:
-A web application that uses the GitHub API to find repositories based on programming language.
-
-Technologies:
-HTML
-CSS
-JavaScript
-GitHub API
-
-Features:
-Language selection
-GitHub API integration
-Repository search
-Dynamic results
-Repository discovery
-Responsive interface
-
-My Contribution:
-I contributed to the frontend interface and JavaScript functionality used to interact with the GitHub API.
-
-What I Learned:
-This project improved my understanding of APIs, fetch requests, JSON and dynamic DOM rendering.
-
-
-Project Name: Custom Dropdown
-
-Project Type: Contribution
-
-Description:
-A custom dropdown component built using frontend technologies.
-
-Technologies:
-HTML
-CSS
-JavaScript
-
-Features:
-Custom dropdown UI
-Open and close interaction
-Option selection
-JavaScript events
-Custom styling
-Responsive layout
-
-My Contribution:
-I contributed to the HTML structure, CSS styling and JavaScript interaction.
-
-What I Learned:
-I improved my understanding of event handling, CSS positioning and interactive UI components.
-
-
-Project Name: Quiz Project
-
-Project Type: Contribution
-
-Description:
-A frontend quiz system with multiple-choice questions and interactive quiz functionality.
-
-Technologies:
-HTML
-CSS
-JavaScript
-
-Features:
-Multiple-choice questions
-Question navigation
-Answer selection
-Quiz timer
-Interactive interface
-Responsive design
-
-My Contribution:
-I contributed to the quiz functionality, frontend behavior and JavaScript logic.
-
-What I Learned:
-This project strengthened my understanding of arrays, objects, DOM manipulation and application state.
-
-
-GENERAL PROJECT INFORMATION
-
-Total Projects:
-11+
-
-Independent Projects:
-1
-
-Contribution Projects:
-10
-
-Main Development Area:
-Web Development
-
-Main Technologies:
-HTML
-CSS
-JavaScript
-Node.js
-Express
+Main Database Technologies:
 MongoDB
 MongoDB Atlas
+MySQL
+
+Development Tools:
 Git
 GitHub
+VS Code
 GitHub API
-Face API
+
+Development Experience:
+My portfolio demonstrates both independent development and collaborative contribution experience.
+
+Independent projects demonstrate my ability to plan, build and implement complete applications.
+
+Contribution projects demonstrate my ability to work with existing repositories, understand existing code and contribute to collaborative development workflows.
 
 Portfolio Goal:
-The portfolio demonstrates practical web development work, independent development experience, collaborative contributions and continuous learning.
+The portfolio demonstrates practical web development experience, independent project development, collaborative contributions, JavaScript skills, frontend development, backend development, API integration, database experience and continuous technical learning.
+
+==================================================
+PROJECT CATEGORIES
+==================
+
+Frontend Projects:
+
+* Weather Check App
+* Theme Switcher
+* Task Tracker
+* Temperature System
+* Pomodoro Timer
+* Custom Dropdown
+* Quiz Project
+* Quiz Bio System
+* GitHub Repository Finder
+
+Full-Stack / Backend Projects:
+
+* AI Playground
+* Student Management System
+* Story Clone Project
+* Portfolio Website
+
+Database Projects:
+
+* Student Management System
+* Story Clone Project
+* AI Playground
+
+API-Based Projects:
+
+* GitHub Repository Finder
+* Story Clone Project
+* Student Management System
+* AI Playground
+
+JavaScript-Heavy Projects:
+
+* Quiz Bio System
+* Task Tracker
+* Temperature System
+* Pomodoro Timer
+* GitHub Repository Finder
+* Quiz Project
+* Theme Switcher
+* Custom Dropdown
+
+==================================================
 AI CHATBOT
-LLM Used: GPT-OSS-120B through Groq.
-RAG System: The chatbot retrieves relevant information from portfolio-data.txt and sends the retrieved context to the LLM to generate a natural response.
+==========
+
+LLM Used:
+GPT-OSS-120B through Groq.
+
+RAG System:
+The portfolio chatbot uses a Retrieval-Augmented Generation (RAG) approach.
+
+Portfolio information is stored in portfolio-data.txt.
+
+When a user asks a question, the system searches the portfolio knowledge base for relevant information.
+
+The retrieved information is then provided to the language model as context.
+
+The language model generates a natural-language response based on the retrieved portfolio information.
+
+Chatbot Knowledge Scope:
+The chatbot should primarily answer questions related to:
+
+* About me
+* Skills
+* Technologies
+* Independent projects
+* Contribution projects
+* Project features
+* Project technologies
+* Project contributions
+* Project challenges
+* What I learned
+* APIs
+* Databases
+* Backend development
+* Frontend development
+* Git and GitHub
+* Development experience
+* Portfolio information
+
+Important Chatbot Rule:
+The chatbot should use the portfolio knowledge base as its primary source of information.
+
+It should not invent project features, technologies, contributions, experience or achievements that are not supported by the portfolio information.
+
+When a requested detail is not available in the knowledge base, the chatbot should clearly say that the information is not available rather than making up an answer.
+
+==================================================
+END OF PORTFOLIO INFORMATION
+============================
